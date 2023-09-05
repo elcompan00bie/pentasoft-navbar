@@ -1,0 +1,69 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height: auto;
+    box-shadow:5px 0 10px #cecece;
+}
+
+.navbar{
+    width:inherit;
+    padding:16px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.logo{
+    width:150px;
+}
+
+.items{
+    display:inherit;
+    align-items:center;
+    gap:28px;
+    list-style: none;
+}
+
+.item a:link{
+    color:#1a1a1a;
+    text-decoration: none;
+}
+
+.item a:link span.icon{
+    display:inline-block;
+    width: 14px;
+    height: 14px;
+    margin-left: 4px;
+    background-image:url('../assets/icons/chevron-down.svg');
+    background-position-y: 2px;
+}
+
+.items li:last-of-type{
+    list-style: none;
+}
+
+.settings{
+    display:flex;
+    align-items: center;
+    list-style: none;
+}
+
+.settings li{
+    display:inline-block;
+}
+
+.settings li:last-of-type a:link{
+    align-self: flex-end;
+}
+
+.settings li:last-of-type a:link .icon{
+    display:inline-block;
+    width: 20px;
+    height: 20px;
+    background-image:url('../assets/icons/magnifying-glass.svg');
+}

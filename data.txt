@@ -1,0 +1,17 @@
+colores:
+background-nav: #fff
+color-nav: #000000b3
+icon-nav: #00a9ff
+
+link de la template:
+https://demo.templatemonster.com/demo/189296.html?_gl=1*1rvkq7z*_ga*MTY0MjQ2NjYyMC4xNjkyNjQ3MTY1*_ga_FTPYEGT5LY*MTY5MjY0NzE2NC4xLjAuMTY5MjY0NzE3My41MS4wLjA.&_ga=2.177163494.276815702.1692647165-1642466620.1692647165
+
+link de la imagen:
+https://postimg.cc/q6w8dVjZ/a2589878
+
+iconos obtenidos en:
+https://heroicons.com/
+
+ruta relativa de los iconos:
+./assets/icons
+
