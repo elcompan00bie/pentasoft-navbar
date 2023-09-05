@@ -7,15 +7,18 @@
 .header{
     width: 100%;
     height: auto;
+    font-size:14px;
+    font-family: 'Inter',sans-serif;
     box-shadow:5px 0 10px #cecece;
 }
 
 .navbar{
     width:inherit;
-    padding:16px;
+    padding:16px 16px 8px 16px;
     display:flex;
     align-items:center;
     justify-content:space-between;
+    letter-spacing: 0.5px;
 }
 
 .logo{
@@ -30,7 +33,7 @@
 }
 
 .item a:link{
-    color:#1a1a1a;
+    color:#464646;
     text-decoration: none;
 }
 
@@ -55,6 +58,12 @@
 
 .settings li{
     display:inline-block;
+    color:#464646;
+}
+
+.settings li:last-of-type{
+    margin-top:4px;
+    margin-left:4px;
 }
 
 .settings li:last-of-type a:link{
